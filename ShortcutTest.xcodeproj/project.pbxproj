@@ -12,7 +12,64 @@
 		7BCEA7D6223FEE87004D3EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA7D4223FEE87004D3EA4 /* Main.storyboard */; };
 		7BCEA7D8223FEE88004D3EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA7D7223FEE88004D3EA4 /* Assets.xcassets */; };
 		7BCEA7DB223FEE88004D3EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA7D9223FEE88004D3EA4 /* LaunchScreen.storyboard */; };
+		7BCEA7EA223FEF2A004D3EA4 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA7E9223FEF2A004D3EA4 /* IntentHandler.swift */; };
+		7BCEA7F3223FEF2A004D3EA4 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCEA7F2223FEF2A004D3EA4 /* IntentsUI.framework */; };
+		7BCEA7F9223FEF2A004D3EA4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA7F7223FEF2A004D3EA4 /* MainInterface.storyboard */; };
+		7BCEA7FD223FEF2A004D3EA4 /* LightIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7BCEA7F0223FEF2A004D3EA4 /* LightIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7BCEA800223FEF2A004D3EA4 /* LightIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7BCEA7E7223FEF2A004D3EA4 /* LightIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7BCEA809223FEF82004D3EA4 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA808223FEF82004D3EA4 /* Intents.intentdefinition */; };
+		7BCEA80B223FF012004D3EA4 /* LightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA80A223FF012004D3EA4 /* LightIntentHandler.swift */; };
+		7BCEA840224131B0004D3EA4 /* LightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA80A223FF012004D3EA4 /* LightIntentHandler.swift */; };
+		7BCEA841224133E2004D3EA4 /* LightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA80A223FF012004D3EA4 /* LightIntentHandler.swift */; };
+		7BCEA842224136B9004D3EA4 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA808223FEF82004D3EA4 /* Intents.intentdefinition */; };
+		7BCEA843224136BA004D3EA4 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA808223FEF82004D3EA4 /* Intents.intentdefinition */; };
+		7BCEA84422413738004D3EA4 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA7E9223FEF2A004D3EA4 /* IntentHandler.swift */; };
+		7BCEA8482244F833004D3EA4 /* AppCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA8472244F833004D3EA4 /* AppCache.swift */; };
+		7BCEA8492244F833004D3EA4 /* AppCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA8472244F833004D3EA4 /* AppCache.swift */; };
+		7BCEA84A2244F833004D3EA4 /* AppCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA8472244F833004D3EA4 /* AppCache.swift */; };
+		7BCEA84C2244F851004D3EA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA84B2244F851004D3EA4 /* Constants.swift */; };
+		7BCEA84D2244F851004D3EA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA84B2244F851004D3EA4 /* Constants.swift */; };
+		7BCEA84E2244F851004D3EA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA84B2244F851004D3EA4 /* Constants.swift */; };
+		7BCEA8502244F867004D3EA4 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA84F2244F867004D3EA4 /* Shared.swift */; };
+		7BCEA8512244F867004D3EA4 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA84F2244F867004D3EA4 /* Shared.swift */; };
+		7BCEA8522244F867004D3EA4 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA84F2244F867004D3EA4 /* Shared.swift */; };
+		7BCEA854224512E3004D3EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA7D2223FEE87004D3EA4 /* ViewController.swift */; };
+		7BCEA855224512E3004D3EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA7D2223FEE87004D3EA4 /* ViewController.swift */; };
+		7BCEA85822452CEA004D3EA4 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA7F5223FEF2A004D3EA4 /* IntentViewController.swift */; };
+		7BCEA85922452FEC004D3EA4 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA7F5223FEF2A004D3EA4 /* IntentViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BCEA7FB223FEF2A004D3EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BCEA7C5223FEE86004D3EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BCEA7EF223FEF2A004D3EA4;
+			remoteInfo = LightIntentUI;
+		};
+		7BCEA7FE223FEF2A004D3EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BCEA7C5223FEE86004D3EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BCEA7E6223FEF2A004D3EA4;
+			remoteInfo = LightIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BCEA807223FEF2A004D3EA4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7BCEA7FD223FEF2A004D3EA4 /* LightIntentUI.appex in Embed App Extensions */,
+				7BCEA800223FEF2A004D3EA4 /* LightIntent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7BCEA7CD223FEE87004D3EA4 /* ShortcutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortcutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +79,21 @@
 		7BCEA7D7223FEE88004D3EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BCEA7DA223FEE88004D3EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BCEA7DC223FEE88004D3EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCEA7E2223FEF0C004D3EA4 /* ShortcutTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShortcutTest.entitlements; sourceTree = "<group>"; };
+		7BCEA7E7223FEF2A004D3EA4 /* LightIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LightIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCEA7E9223FEF2A004D3EA4 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		7BCEA7EB223FEF2A004D3EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCEA7F0223FEF2A004D3EA4 /* LightIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LightIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCEA7F2223FEF2A004D3EA4 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		7BCEA7F5223FEF2A004D3EA4 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		7BCEA7F8223FEF2A004D3EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		7BCEA7FA223FEF2A004D3EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCEA808223FEF82004D3EA4 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		7BCEA80A223FF012004D3EA4 /* LightIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightIntentHandler.swift; sourceTree = "<group>"; };
+		7BCEA8472244F833004D3EA4 /* AppCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCache.swift; sourceTree = "<group>"; };
+		7BCEA84B2244F851004D3EA4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7BCEA84F2244F867004D3EA4 /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		7BCEA85322450F1C004D3EA4 /* LightIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LightIntent.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +104,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7BCEA7E4223FEF2A004D3EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCEA7ED223FEF2A004D3EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCEA7F3223FEF2A004D3EA4 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -39,6 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				7BCEA7CF223FEE87004D3EA4 /* ShortcutTest */,
+				7BCEA7E8223FEF2A004D3EA4 /* LightIntent */,
+				7BCEA7F4223FEF2A004D3EA4 /* LightIntentUI */,
+				7BCEA7F1223FEF2A004D3EA4 /* Frameworks */,
 				7BCEA7CE223FEE87004D3EA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				7BCEA7CD223FEE87004D3EA4 /* ShortcutTest.app */,
+				7BCEA7E7223FEF2A004D3EA4 /* LightIntent.appex */,
+				7BCEA7F0223FEF2A004D3EA4 /* LightIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +146,56 @@
 		7BCEA7CF223FEE87004D3EA4 /* ShortcutTest */ = {
 			isa = PBXGroup;
 			children = (
+				7BCEA8462244F833004D3EA4 /* Caches */,
+				7BCEA84B2244F851004D3EA4 /* Constants.swift */,
+				7BCEA84F2244F867004D3EA4 /* Shared.swift */,
+				7BCEA7E2223FEF0C004D3EA4 /* ShortcutTest.entitlements */,
 				7BCEA7D0223FEE87004D3EA4 /* AppDelegate.swift */,
 				7BCEA7D2223FEE87004D3EA4 /* ViewController.swift */,
 				7BCEA7D4223FEE87004D3EA4 /* Main.storyboard */,
 				7BCEA7D7223FEE88004D3EA4 /* Assets.xcassets */,
 				7BCEA7D9223FEE88004D3EA4 /* LaunchScreen.storyboard */,
 				7BCEA7DC223FEE88004D3EA4 /* Info.plist */,
+				7BCEA808223FEF82004D3EA4 /* Intents.intentdefinition */,
 			);
 			path = ShortcutTest;
+			sourceTree = "<group>";
+		};
+		7BCEA7E8223FEF2A004D3EA4 /* LightIntent */ = {
+			isa = PBXGroup;
+			children = (
+				7BCEA85322450F1C004D3EA4 /* LightIntent.entitlements */,
+				7BCEA7E9223FEF2A004D3EA4 /* IntentHandler.swift */,
+				7BCEA80A223FF012004D3EA4 /* LightIntentHandler.swift */,
+				7BCEA7EB223FEF2A004D3EA4 /* Info.plist */,
+			);
+			path = LightIntent;
+			sourceTree = "<group>";
+		};
+		7BCEA7F1223FEF2A004D3EA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BCEA7F2223FEF2A004D3EA4 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BCEA7F4223FEF2A004D3EA4 /* LightIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				7BCEA7F5223FEF2A004D3EA4 /* IntentViewController.swift */,
+				7BCEA7F7223FEF2A004D3EA4 /* MainInterface.storyboard */,
+				7BCEA7FA223FEF2A004D3EA4 /* Info.plist */,
+			);
+			path = LightIntentUI;
+			sourceTree = "<group>";
+		};
+		7BCEA8462244F833004D3EA4 /* Caches */ = {
+			isa = PBXGroup;
+			children = (
+				7BCEA8472244F833004D3EA4 /* AppCache.swift */,
+			);
+			path = Caches;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +208,52 @@
 				7BCEA7C9223FEE87004D3EA4 /* Sources */,
 				7BCEA7CA223FEE87004D3EA4 /* Frameworks */,
 				7BCEA7CB223FEE87004D3EA4 /* Resources */,
+				7BCEA807223FEF2A004D3EA4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7BCEA7FC223FEF2A004D3EA4 /* PBXTargetDependency */,
+				7BCEA7FF223FEF2A004D3EA4 /* PBXTargetDependency */,
 			);
 			name = ShortcutTest;
 			productName = ShortcutTest;
 			productReference = 7BCEA7CD223FEE87004D3EA4 /* ShortcutTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7BCEA7E6223FEF2A004D3EA4 /* LightIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCEA804223FEF2A004D3EA4 /* Build configuration list for PBXNativeTarget "LightIntent" */;
+			buildPhases = (
+				7BCEA7E3223FEF2A004D3EA4 /* Sources */,
+				7BCEA7E4223FEF2A004D3EA4 /* Frameworks */,
+				7BCEA7E5223FEF2A004D3EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightIntent;
+			productName = LightIntent;
+			productReference = 7BCEA7E7223FEF2A004D3EA4 /* LightIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7BCEA7EF223FEF2A004D3EA4 /* LightIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCEA801223FEF2A004D3EA4 /* Build configuration list for PBXNativeTarget "LightIntentUI" */;
+			buildPhases = (
+				7BCEA7EC223FEF2A004D3EA4 /* Sources */,
+				7BCEA7ED223FEF2A004D3EA4 /* Frameworks */,
+				7BCEA7EE223FEF2A004D3EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightIntentUI;
+			productName = LightIntentUI;
+			productReference = 7BCEA7F0223FEF2A004D3EA4 /* LightIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +266,25 @@
 				ORGANIZATIONNAME = "Niklas Lindell";
 				TargetAttributes = {
 					7BCEA7CC223FEE87004D3EA4 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					7BCEA7E6223FEF2A004D3EA4 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					7BCEA7EF223FEF2A004D3EA4 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +303,8 @@
 			projectRoot = "";
 			targets = (
 				7BCEA7CC223FEE87004D3EA4 /* ShortcutTest */,
+				7BCEA7E6223FEF2A004D3EA4 /* LightIntent */,
+				7BCEA7EF223FEF2A004D3EA4 /* LightIntentUI */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +320,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7BCEA7E5223FEF2A004D3EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCEA7EE223FEF2A004D3EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCEA7F9223FEF2A004D3EA4 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,12 +342,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BCEA809223FEF82004D3EA4 /* Intents.intentdefinition in Sources */,
+				7BCEA84422413738004D3EA4 /* IntentHandler.swift in Sources */,
+				7BCEA85922452FEC004D3EA4 /* IntentViewController.swift in Sources */,
+				7BCEA8482244F833004D3EA4 /* AppCache.swift in Sources */,
 				7BCEA7D3223FEE87004D3EA4 /* ViewController.swift in Sources */,
+				7BCEA84C2244F851004D3EA4 /* Constants.swift in Sources */,
 				7BCEA7D1223FEE87004D3EA4 /* AppDelegate.swift in Sources */,
+				7BCEA8502244F867004D3EA4 /* Shared.swift in Sources */,
+				7BCEA841224133E2004D3EA4 /* LightIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCEA7E3223FEF2A004D3EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCEA8512244F867004D3EA4 /* Shared.swift in Sources */,
+				7BCEA84D2244F851004D3EA4 /* Constants.swift in Sources */,
+				7BCEA842224136B9004D3EA4 /* Intents.intentdefinition in Sources */,
+				7BCEA7EA223FEF2A004D3EA4 /* IntentHandler.swift in Sources */,
+				7BCEA854224512E3004D3EA4 /* ViewController.swift in Sources */,
+				7BCEA8492244F833004D3EA4 /* AppCache.swift in Sources */,
+				7BCEA80B223FF012004D3EA4 /* LightIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCEA7EC223FEF2A004D3EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCEA8522244F867004D3EA4 /* Shared.swift in Sources */,
+				7BCEA84E2244F851004D3EA4 /* Constants.swift in Sources */,
+				7BCEA843224136BA004D3EA4 /* Intents.intentdefinition in Sources */,
+				7BCEA855224512E3004D3EA4 /* ViewController.swift in Sources */,
+				7BCEA85822452CEA004D3EA4 /* IntentViewController.swift in Sources */,
+				7BCEA84A2244F833004D3EA4 /* AppCache.swift in Sources */,
+				7BCEA840224131B0004D3EA4 /* LightIntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BCEA7FC223FEF2A004D3EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BCEA7EF223FEF2A004D3EA4 /* LightIntentUI */;
+			targetProxy = 7BCEA7FB223FEF2A004D3EA4 /* PBXContainerItemProxy */;
+		};
+		7BCEA7FF223FEF2A004D3EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BCEA7E6223FEF2A004D3EA4 /* LightIntent */;
+			targetProxy = 7BCEA7FE223FEF2A004D3EA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7BCEA7D4223FEE87004D3EA4 /* Main.storyboard */ = {
@@ -157,6 +412,14 @@
 				7BCEA7DA223FEE88004D3EA4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7BCEA7F7223FEF2A004D3EA4 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCEA7F8223FEF2A004D3EA4 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -281,7 +544,9 @@
 		7BCEA7E0223FEE88004D3EA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShortcutTest/ShortcutTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GA9P9633N5;
 				INFOPLIST_FILE = ShortcutTest/Info.plist;
@@ -299,7 +564,9 @@
 		7BCEA7E1223FEE88004D3EA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShortcutTest/ShortcutTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GA9P9633N5;
 				INFOPLIST_FILE = ShortcutTest/Info.plist;
@@ -309,6 +576,84 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.niklaslindell..ShortcutTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BCEA802223FEF2A004D3EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA9P9633N5;
+				INFOPLIST_FILE = LightIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.niklaslindell..ShortcutTest.LightIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BCEA803223FEF2A004D3EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA9P9633N5;
+				INFOPLIST_FILE = LightIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.niklaslindell..ShortcutTest.LightIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BCEA805223FEF2A004D3EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LightIntent/LightIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA9P9633N5;
+				INFOPLIST_FILE = LightIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.niklaslindell..ShortcutTest.LightIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BCEA806223FEF2A004D3EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LightIntent/LightIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA9P9633N5;
+				INFOPLIST_FILE = LightIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.niklaslindell..ShortcutTest.LightIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,6 +676,24 @@
 			buildConfigurations = (
 				7BCEA7E0223FEE88004D3EA4 /* Debug */,
 				7BCEA7E1223FEE88004D3EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCEA801223FEF2A004D3EA4 /* Build configuration list for PBXNativeTarget "LightIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCEA802223FEF2A004D3EA4 /* Debug */,
+				7BCEA803223FEF2A004D3EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCEA804223FEF2A004D3EA4 /* Build configuration list for PBXNativeTarget "LightIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCEA805223FEF2A004D3EA4 /* Debug */,
+				7BCEA806223FEF2A004D3EA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
