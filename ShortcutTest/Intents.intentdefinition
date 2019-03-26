@@ -22,7 +22,7 @@
 			<key>INIntentDescriptionID</key>
 			<string>y0LaYs</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>8</integer>
+			<integer>10</integer>
 			<key>INIntentName</key>
 			<string>Light</string>
 			<key>INIntentParameterCombinations</key>
@@ -92,7 +92,7 @@
 					<key>INIntentParameterSupportsMultipleValues</key>
 					<false/>
 					<key>INIntentParameterTag</key>
-					<integer>8</integer>
+					<integer>10</integer>
 					<key>INIntentParameterType</key>
 					<string>String</string>
 				</dict>

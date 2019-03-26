@@ -19,6 +19,7 @@ class LightIntentHandler: NSObject, LightIntentHandling {
         if Shared.cache.lightState == false {
             completion(LightIntentResponse.success(lights: "lights", on: "on"))
             Shared.cache.lightState = true
+
         }
         else {
             completion(LightIntentResponse(code: .failure, userActivity: nil))

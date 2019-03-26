@@ -1,7 +1,7 @@
 import Foundation
 
 protocol Cache {
-    var lightState: Bool {get set}
+    var lightState: [String : Bool] {get set}
 }
 
 private struct CacheKeys {
@@ -9,10 +9,19 @@ private struct CacheKeys {
 }
 
 extension UserDefaults: Cache {
-    
-    var lightState: Bool {
-        
-        get { return bool(forKey: CacheKeys.LightStateKey) }
-        set { newValue ? set(newValue, forKey: CacheKeys.LightStateKey) : removeObject(forKey: CacheKeys.LightStateKey)}
+    var lightState: [String : Bool] {
+        get {
+            return dictionary(forKey: CacheKeys.LightStateKey) as! [String : Bool]
+        }
+        set {
+            set(newValue, forKey: CacheKeys.LightStateKey)
+        }
     }
+    
+    
+//    var lightState: Bool {
+//
+//        get { return bool(forKey: CacheKeys.LightStateKey) }
+//        set { newValue ? set(newValue, forKey: CacheKeys.LightStateKey) : removeObject(forKey: CacheKeys.LightStateKey)}
+//    }
 }
