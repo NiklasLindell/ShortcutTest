@@ -10,6 +10,7 @@
 		7B0B8651224A57740013334A /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B8650224A57740013334A /* Device.swift */; };
 		7B0B8652224A57740013334A /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B8650224A57740013334A /* Device.swift */; };
 		7B0B8653224A57740013334A /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B8650224A57740013334A /* Device.swift */; };
+		7B5B2902224B908D0009E0F8 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA7E9223FEF2A004D3EA4 /* IntentHandler.swift */; };
 		7BCEA7D1223FEE87004D3EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA7D0223FEE87004D3EA4 /* AppDelegate.swift */; };
 		7BCEA7D3223FEE87004D3EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA7D2223FEE87004D3EA4 /* ViewController.swift */; };
 		7BCEA7D6223FEE87004D3EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA7D4223FEE87004D3EA4 /* Main.storyboard */; };
@@ -388,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BCEA8522244F867004D3EA4 /* Shared.swift in Sources */,
+				7B5B2902224B908D0009E0F8 /* IntentHandler.swift in Sources */,
 				7BCEA84E2244F851004D3EA4 /* Constants.swift in Sources */,
 				7BCEA843224136BA004D3EA4 /* Intents.intentdefinition in Sources */,
 				7BCEA855224512E3004D3EA4 /* ViewController.swift in Sources */,

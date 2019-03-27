@@ -1,25 +1,18 @@
 import UIKit
 import Intents
-import os.log
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-
-    @IBOutlet weak var switchOutlet: UISwitch!
-    @IBOutlet weak var label: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("ALL DEVICES \(Shared.cache.devices)")
-        
+                
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-//        switchOutlet.isOn = Shared.cache.lightState
+        tableView.reloadData()
     }
     
     @IBAction func addLamp(_ sender: Any) {
@@ -46,7 +39,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBAction func switchTapped(_ sender: Any) {
         donateInteraction()
-//        Shared.cache.lightState = switchOutlet.isOn
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -55,30 +47,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "\(Shared.cache.devices[indexPath.row].name) with state \(Shared.cache.devices[indexPath.row].isOn) "
-        cell.textLabel?.font = UIFont(name: "Helvetica", size: 25)
-        cell.textLabel?.textColor = UIColor.white
-        
+        cell.textLabel?.text = Shared.cache.devices[indexPath.row].name
+        cell.textLabel?.font = UIFont(name: "HiraginoSans", size: 25)
         if Shared.cache.devices[indexPath.row].isOn == false {
-            cell.backgroundColor = UIColor.clear
+            cell.textLabel?.textColor = UIColor.white
         } else {
-            cell.backgroundColor = UIColor.green
+            cell.textLabel?.textColor = UIColor.green
         }
-        
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Tapped at index \(indexPath.row) with state \(Shared.cache.devices[indexPath.row].isOn)")
-        
-        for lamp in Shared.cache.devices {
-            if lamp.isOn == false {
-                lamp.isOn = true
-            } else {
-                lamp.isOn = false
-            }
+        let selectedLamp = Shared.cache.devices[indexPath.row]
+        if selectedLamp.isOn == false {
+            selectedLamp.isOn = true
+        } else {
+            selectedLamp.isOn = false
         }
-        
+        Shared.cache.devices[indexPath.row] = selectedLamp
         tableView.reloadData()
     }
     
