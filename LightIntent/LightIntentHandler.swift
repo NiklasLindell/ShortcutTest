@@ -10,19 +10,15 @@ class LightIntentHandler: NSObject, LightIntentHandling {
     
     public func handle(intent: LightIntent, completion: @escaping (LightIntentResponse) -> Void) {
         
-     
-        if Shared.cache.lightState == true {
-            completion(LightIntentResponse.successOff(lights: "lights", off: "off"))
-            Shared.cache.lightState = false
-            
-        }
-        if Shared.cache.lightState == false {
-            completion(LightIntentResponse.success(lights: "lights", on: "on"))
-            Shared.cache.lightState = true
 
-        }
-        else {
-            completion(LightIntentResponse(code: .failure, userActivity: nil))
+        for lamp in Shared.cache.devices {
+            if lamp.isOn == false {
+                completion(LightIntentResponse.success(lights: "lights", on: "on"))
+                lamp.isOn = true
+            } else {
+                completion(LightIntentResponse.successOff(lights: "lights", off: "off"))
+                lamp.isOn = false
+            }
         }
     }
 }

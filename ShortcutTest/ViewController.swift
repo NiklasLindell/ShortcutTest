@@ -9,12 +9,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
-    var lampList : [String : Bool] = Shared.cache.lightState
-    let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(lampList)
+        
+        print("ALL DEVICES \(Shared.cache.devices)")
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -31,10 +31,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let addAction = UIAlertAction(title: "OK", style: .default) { (_) in
             if alert.textFields?.first?.text != ""{
                 let lamp = alert.textFields!.first!.text!
-                self.lampList.updateValue(false, forKey: lamp)
-                
-                
-//                self.defaults.set(self.lampList, forKey: "lampList")
+                Shared.cache.devices.append(Device(name: lamp, isOn: false))
                 self.tableView.reloadData()
             }
         }
@@ -53,41 +50,41 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return defaults.array(forKey: "lampList")?.count ?? 1
-        return lampList.count
+        return Shared.cache.devices.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        if lampList.count == 0 {
-            
-            cell.textLabel?.text = "No lamps added"
-            
-            
-            return cell
-        }
-//        cell.textLabel?.text = lampList[indexPath.row] as? String
+        cell.textLabel?.text = "\(Shared.cache.devices[indexPath.row].name) with state \(Shared.cache.devices[indexPath.row].isOn) "
         cell.textLabel?.font = UIFont(name: "Helvetica", size: 25)
         cell.textLabel?.textColor = UIColor.white
         
+        if Shared.cache.devices[indexPath.row].isOn == false {
+            cell.backgroundColor = UIColor.clear
+        } else {
+            cell.backgroundColor = UIColor.green
+        }
+        
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Tapped at index \(indexPath.row) with state \(Shared.cache.devices[indexPath.row].isOn)")
+        
+        for lamp in Shared.cache.devices {
+            if lamp.isOn == false {
+                lamp.isOn = true
+            } else {
+                lamp.isOn = false
+            }
+        }
+        
+        tableView.reloadData()
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
-    
-    
-    
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-//            lampList.remove(at: indexPath.row)
-            self.defaults.set(self.lampList, forKey: "lampList")
-            tableView.deleteRows(at: [indexPath], with: .fade)
-            tableView.reloadData()
-        }
-    }
-    
     
     func donateInteraction() {
         let intent = LightIntent()

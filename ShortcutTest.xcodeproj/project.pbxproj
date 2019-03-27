@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0B8651224A57740013334A /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B8650224A57740013334A /* Device.swift */; };
+		7B0B8652224A57740013334A /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B8650224A57740013334A /* Device.swift */; };
+		7B0B8653224A57740013334A /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B8650224A57740013334A /* Device.swift */; };
 		7BCEA7D1223FEE87004D3EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA7D0223FEE87004D3EA4 /* AppDelegate.swift */; };
 		7BCEA7D3223FEE87004D3EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA7D2223FEE87004D3EA4 /* ViewController.swift */; };
 		7BCEA7D6223FEE87004D3EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA7D4223FEE87004D3EA4 /* Main.storyboard */; };
@@ -72,6 +75,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B0B8650224A57740013334A /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		7BCEA7CD223FEE87004D3EA4 /* ShortcutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortcutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BCEA7D0223FEE87004D3EA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BCEA7D2223FEE87004D3EA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +126,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B0B864F224A57580013334A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B0B8650224A57740013334A /* Device.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		7BCEA7C4223FEE86004D3EA4 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +158,7 @@
 		7BCEA7CF223FEE87004D3EA4 /* ShortcutTest */ = {
 			isa = PBXGroup;
 			children = (
+				7B0B864F224A57580013334A /* Model */,
 				7BCEA8462244F833004D3EA4 /* Caches */,
 				7BCEA84B2244F851004D3EA4 /* Constants.swift */,
 				7BCEA84F2244F867004D3EA4 /* Shared.swift */,
@@ -351,6 +364,7 @@
 				7BCEA7D1223FEE87004D3EA4 /* AppDelegate.swift in Sources */,
 				7BCEA8502244F867004D3EA4 /* Shared.swift in Sources */,
 				7BCEA841224133E2004D3EA4 /* LightIntentHandler.swift in Sources */,
+				7B0B8651224A57740013334A /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +379,7 @@
 				7BCEA854224512E3004D3EA4 /* ViewController.swift in Sources */,
 				7BCEA8492244F833004D3EA4 /* AppCache.swift in Sources */,
 				7BCEA80B223FF012004D3EA4 /* LightIntentHandler.swift in Sources */,
+				7B0B8652224A57740013334A /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +394,7 @@
 				7BCEA85822452CEA004D3EA4 /* IntentViewController.swift in Sources */,
 				7BCEA84A2244F833004D3EA4 /* AppCache.swift in Sources */,
 				7BCEA840224131B0004D3EA4 /* LightIntentHandler.swift in Sources */,
+				7B0B8653224A57740013334A /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
