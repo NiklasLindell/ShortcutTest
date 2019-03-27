@@ -37,10 +37,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         present(alert, animated: true, completion: nil)
     }
     
-    @IBAction func switchTapped(_ sender: Any) {
-        donateInteraction()
-    }
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Shared.cache.devices.count
     }
@@ -66,6 +62,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         Shared.cache.devices[indexPath.row] = selectedLamp
         tableView.reloadData()
+        donateInteraction()
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -74,7 +71,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func donateInteraction() {
         let intent = LightIntent()
-        intent.suggestedInvocationPhrase = "light"
+        intent.suggestedInvocationPhrase = "Light on/off"
         intent.lights = "lights"
         intent.on = "on"
         intent.off = "off"
